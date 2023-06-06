@@ -1,0 +1,65 @@
+body,html{
+  height: 100%;
+}
+
+#spinner {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+#notFound{
+  height: 100vh;
+}
+
+.navbar{
+  background-color: black;
+  width: 100%;
+}
+
+.parallax{
+  background-image: url("../assets/bg.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-device-width: 1000px){
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+.form-switch.form-switch-lg {
+  margin-bottom: 1.5rem; 
+}
+      
+.form-switch.form-switch-lg .form-check-input {
+  width: calc(3rem + 0.75rem);
+  height: 2rem;
+  border-radius: 4rem;
+}
+
+a{
+cursor: pointer;
+}
+
+.collapseInfo {
+  margin: auto;
+  border: 2px solid #ffc107;
+  background: white;
+  box-shadow: 0px 6px 5px #ffc107;
+  border-radius: 190px;
+}
+
+
+
+.fa-brands{
+  color: #e7d7bc;
+}
